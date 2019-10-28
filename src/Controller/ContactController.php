@@ -44,7 +44,6 @@ class ContactController extends AbstractController
         $data = $serializer->serialize($contact, 'json');
 
         return new Response($data, 200, ['Content-Type' => 'application/json']);
-
     }
 
 
