@@ -35,7 +35,7 @@ class ContactController extends AbstractController
     }
 
     /**
-     * @Route("/{id}", name = "show_contact", methods={"GET"})
+     * @Route("/{id}", name="show_contact", methods={"GET"})
      */
 
     public function show(Contact $contact, ContactRepository $contactRepository, SerializerInterface $serializer)
